@@ -12,3 +12,10 @@ Allow python to find the various modules by placing the current
 directory on the `PYTHON_PATH` with the following command.
 
     export PYTHON_PATH=.
+
+Test
+----
+
+Execute the command below to run all tests.
+
+    python code/test/test_all.py
