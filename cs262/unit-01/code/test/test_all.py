@@ -3,11 +3,12 @@ import unittest
 from code.test.firstsecond import testFirstSecond
 from code.test.regex import testRegex
 from code.test.hyphenated import testHyphen
+from code.test.function import testFunction
 
 class EvaluateSuite(unittest.TestSuite):
     def __init__(self):
         unittest.TestSuite.__init__(self)
-        for clazz in [testFirstSecond, testRegex, testHyphen]:
+        for clazz in [testFirstSecond, testRegex, testHyphen, testFunction]:
             self.addTest(unittest.makeSuite(clazz))
 
 if __name__ == '__main__':
