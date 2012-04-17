@@ -11,7 +11,7 @@ Environment
 Allow python to find the various modules by placing the current
 directory on the `PYTHON_PATH` with the following command.
 
-    export PYTHON_PATH=.
+    export PYTHONPATH=.
 
 Test
 ----
