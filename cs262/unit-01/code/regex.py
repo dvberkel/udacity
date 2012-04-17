@@ -10,3 +10,6 @@ if __name__ == '__main__':
     print re.findall(regexp, "1")
     print re.findall(regexp, "123")
 
+    # regex does not matches
+    print re.findall(regexp, "a")
+    print re.findall(regexp, "abc")
