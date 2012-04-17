@@ -2,6 +2,8 @@
 
 # Assign to the variable regexp a regular expression that matches either the
 # exact string ab or one or more digits
+import re
+
 regexp = r"ab|[0-9]+"
 
 if __name__ == '__main__':

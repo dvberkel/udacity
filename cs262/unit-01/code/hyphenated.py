@@ -4,6 +4,8 @@
 # lowercase words (a-z) or singly-hyphenated lowercase words
 
 # Hint: it may not be possible to get correctly - do your best!
+import re
+
 regexp = r"[a-z]+(?:-[a-z]+)?"
 
 if __name__ == '__main__':
