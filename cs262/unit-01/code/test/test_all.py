@@ -1,11 +1,12 @@
 import unittest
 
 from code.test.firstsecond import testFirstSecond
+from code.test.regex import testRegex
 
 class EvaluateSuite(unittest.TestSuite):
     def __init__(self):
         unittest.TestSuite.__init__(self)
-        for clazz in [testFirstSecond]:
+        for clazz in [testFirstSecond, testRegex]:
             self.addTest(unittest.makeSuite(clazz))
 
 if __name__ == '__main__':
