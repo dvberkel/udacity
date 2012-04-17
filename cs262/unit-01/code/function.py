@@ -9,7 +9,7 @@
 # Hint: it may not to escape the ( and ).
 import re
 
-regexp = r"[a-z]+\([ ]*-?[1-9][0-9]*[ ]*\)"
+regexp = r"[a-z]+\([ ]*(?:0|-?[1-9][0-9]*)[ ]*\)"
 
 if __name__ == '__main__':
     # regex matches
